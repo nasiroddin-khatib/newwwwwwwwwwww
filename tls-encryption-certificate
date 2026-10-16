@@ -1,0 +1,6 @@
+sudo mkdir -p /etc/devconnect/certs
+
+sudo curl -o /etc/devconnect/certs/global-bundle.pem \
+https://truststore.pki.rds.amazonaws.com/global/global-bundle.pem
+
+ls -l /etc/devconnect/certs/global-bundle.pem
